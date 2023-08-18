@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.home img{
+    margin-top: 2rem;
+    width: 30rem;
+    animation: mover 2s ease  infinite;
+    transition: all .3s;
+}
+
+@keyframes mover{
+   0%{
+    transform: translateY(0px);
+   }
+   50%{
+    transform: translateY(-14px);
+   }
+   100%{
+    transform: translateY(0px);
+   }
+}

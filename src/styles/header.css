@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    height: 120px;
+    
+}
+.container h2{
+    margin: 2rem;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    text-shadow: 6px 6px 11px black;
+
+}
+.hbtn{
+    border: none;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    right:1rem;
+    font-size: 1.4rem;
+    position: absolute;
+    border-radius: 5rem;
+    background-color: rgb(244, 143, 107);
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    cursor: pointer;
+}
+.hbtn:hover{
+    background-color: rgb(237, 99, 48);
+}
+
+/* responsiveness */
+
+/*  900 */
+@media screen and (max-width:900px) {
+   .container{
+    justify-content: left;
+   }
+    
+}
+
+/*  630 */
+@media screen and (max-width:630px) {
+   .container h2{
+    font-size: 3rem;
+   }
+}
+
+/*  550 */
+@media screen and (max-width:550px) {
+   .container h2{
+    font-size: 2.8rem;
+   }
+   .hbtn{
+    font-size: 1.2rem;
+   }
+}
+
+/*  490 */
+@media screen and (max-width:490px) {
+   .container h2{
+    font-size: 2.5rem;
+   }
+   .hbtn{
+    font-size: 1rem;
+   }
+}
+
+/*  440 */
+@media screen and (max-width:440px) {
+   .container h2{
+    font-size: 2.3rem;
+    width: 250px;
+    /* text-align: center; */
+   }
+   .hbtn{
+    font-size: 1.1rem;
+   }
+}

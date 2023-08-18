@@ -1,0 +1,142 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.maincard{
+  /* border: 2px solid red; */
+  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+  background-color: rgb(237, 225, 210);
+  width: 100%;
+  height: 6rem;
+  margin: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+#item {
+  /* border: 2px solid black; */
+  margin-left: 2rem;
+  display: flex;
+}
+
+.contact {
+  /* border: 2px solid purple; */
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: black;
+}
+#img{
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.carddiv{
+  /* border: 2px solid lightgreen; */
+  margin-right: 1rem;
+}
+.cardbtn{
+  /* border: 2px solid rgb(51, 255, 0); */
+  background-color: rgb(52, 47, 47);
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.cardbtn:hover{
+  background-color: rgb(200, 192, 192); 
+}
+
+
+/* 705 */
+@media screen and (max-width:705px){
+
+  #item {
+    /* border: 2px solid rgb(229, 8, 8); */
+    margin-left: 0.1rem;
+    display: flex;
+  }
+
+  .contact {
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-weight: 800;
+  }
+}
+
+/* 590 */
+@media screen and (max-width:590px) {
+
+  .cardbtn{
+    /* border: 2px solid rgb(51, 255, 0); */
+    background-color: rgb(52, 47, 47);
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+  }  
+}
+
+/* 559 */
+
+@media screen and (max-width:559px) {
+
+  .maincard{
+    /* border: 2px solid red; */
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    background-color: rgb(237, 225, 210);
+    width: 98%;
+    height: 9rem;
+    margin: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #img{
+    display: none;
+  }
+  .carddiv{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  }  
+}
+
+@media screen and (max-width:470px) {
+  .cardbtn{
+    /* border: 2px solid rgb(51, 255, 0); */
+    background-color: rgb(52, 47, 47);
+    /* margin: 1rem; */
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .carddiv{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }  
+}
+
+@media screen and (max-width:440px) {
+  .contact {
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-weight: 800;
+  } 
+}
